@@ -22,6 +22,7 @@ const navigation = [
     ],
   },
 ]
+
 const people = [
   {
     name: 'Amith M',
@@ -59,9 +60,9 @@ function Example() {
                 <li key={person.name} className="sm:py-8">
                   <div className="space-y-4 sm:grid sm:grid-cols-3 sm:items-start sm:gap-6 sm:space-y-0">
                     <div className="aspect-w-3 aspect-h-2 sm:aspect-w-3 sm:aspect-h-4">
-                      <img
+                      <Image
                         className="rounded-lg object-cover shadow-lg"
-                        src={person.imageUrl}
+                        src={devImage}
                         alt=""
                       />
                     </div>
@@ -389,7 +390,7 @@ export function Layout({ children, title, tableOfContents }) {
                 Webpage designed by
                 <a
                   href="https://myselfshravan.github.io"
-                  className="text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 font-bold"
+                  className="font-bold text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300"
                 >
                   {' '}
                   Shravan Revanna

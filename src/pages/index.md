@@ -145,7 +145,7 @@ You're now ready to generate Perlin noise! You can use the `noise` instance to o
   array(0.5207113, dtype=float32)
   ```
 
-Grid mode allows for computing noise for every combination of coordinates.<br>
+Grid mode allows for computing noise for every combination of coordinates.
 Use `noise(..., gridMode=True)`; `gridMode` is a keyword-only argument, default is `False`.
 The output will be of the same shape as the length(s) of coordinates in that order.
 
