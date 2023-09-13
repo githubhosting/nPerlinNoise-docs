@@ -36,19 +36,18 @@ const people = [
 ]
 function Example() {
   return (
-    <div className="rounded-md bg-[#020617]">
+    <div className="rounded-xl bg-[#020617cd]">
       <div className="mx-auto max-w-7xl py-12 px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
-            <h2 className="text-3xl font-bold tracking-tight text-slate-100 sm:text-4xl">
+            <h2 className="text-2xl font-bold tracking-tight text-slate-100 sm:text-3xl">
               Maintainer
             </h2>
-            <p className="text-lg text-gray-500">
+            <p className="text-lg text-gray-400">
               This project helped me immensely to hone my skills and i am very
               proud of the end result. It peaked my interests in open source
-              culture. I learnt various conventions, optimization
-              techniques, testing and most importantly how to research on a
-              topic.
+              culture. I learnt various conventions, optimization techniques,
+              testing and most importantly how to research on a topic.
             </p>
           </div>
           <div className="lg:col-span-2">
@@ -69,7 +68,7 @@ function Example() {
                     <div className="sm:col-span-2">
                       <div className="space-y-4">
                         <div className="space-y-2 text-lg font-medium leading-6 text-white">
-                          <h3 className="mt-1">{person.name}</h3>
+                          <h3 className="mt-1 font-bold">{person.name}</h3>
                           <p className="text-slate-600">{person.role}</p>
                         </div>
                         <div className="text-lg">
@@ -386,8 +385,15 @@ export function Layout({ children, title, tableOfContents }) {
               </p>
             </div>
             <div>
-              <h4 className="text-center text-sm font-semibold text-slate-900 dark:text-white">
-                Webpage designed by Shravan
+              <h4 className="text-center text-sm text-slate-900 dark:text-white">
+                Webpage designed by
+                <a
+                  href="https://myselfshravan.github.io"
+                  className="text-sky-500 hover:text-sky-600 dark:text-sky-400 dark:hover:text-sky-300 font-bold"
+                >
+                  {' '}
+                  Shravan Revanna
+                </a>
               </h4>
             </div>
           </div>

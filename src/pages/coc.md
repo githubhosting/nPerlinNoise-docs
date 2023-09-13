@@ -1,10 +1,10 @@
 ---
+title: Contributor Covenant Code of Conduct
 pageTitle: Contributor Covenant Code of Conduct - nPerlinNoise
 description: A robust open source implementation of Perlin Noise Algorithm for N-Dimensions.
 ---
 
 
-# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 

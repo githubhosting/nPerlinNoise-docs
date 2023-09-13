@@ -4,7 +4,15 @@ pageTitle: nPerlinNoise - A robust open source implementation of Perlin Noise Al
 description: A robust open source implementation of Perlin Noise Algorithm for N-Dimensions.
 ---
 
-Learn how to install nPerlinNoise. {% .lead %}
+Learn how to use nPerlinNoise {% .lead %}
+
+- A _powerful_ and _fast_ API for _n-dimensional_ noise.
+- Easy hyper-parameters selection of _octaves_, _lacunarity_ and _persistence_
+  as well as complex and customizable hyper-parameters for n-dimension
+  _frequency_, _waveLength_, _warp_(interpolation) and _range_.
+- Includes various helpful tools for noise generation and for procedural generation tasks
+  such as customizable _Gradient_, _Color Gradients_, _Warp_ classes.
+- Implements custom _PRNG_ generator for n-dimension and can be easily tuned.
 
 ## Details
 
@@ -24,6 +32,14 @@ Tested on Python 3.10, Windows 10
   - **Blogging**
   - Finishing left **in-code docs**
   - Dimensional **octaves**
+
+---
+
+## Screenshots
+
+![example2](https://user-images.githubusercontent.com/75326634/196452679-7bcf8b50-357d-409f-9485-8b9fdffd86f0.gif)
+
+Link to [Gallery](snaps)
 
 ---
 
@@ -155,10 +171,6 @@ The output will be of the same shape as the length(s) of coordinates in that ord
 
 For detailed usage, see [Example](https://github.com/amithm3/nPerlinNoise/blob/master/scripts/main.py).
 
-## API
-
-- Docs pending
-
 ## How to Test the Software
 
 - To test Logical consistency, run [testLogic](https://github.com/amithm3/nPerlinNoise/blob/master/tests/testLogic.py)
@@ -194,8 +206,8 @@ If you have questions, concerns, bug reports, etc., please file an [issue](https
 - [Fork](https://github.com/Amith225/nPerlinNoise/fork) the repository
   and issue a [PR](https://github.com/Amith225/nPerlinNoise/pulls) to contribute
 
-General instructions on _how_ to contribute [CONTRIBUTING](docs/CONTRIBUTING.md)
-and [CODE OF CONDUCT](CODE_OF_CONDUCT.md)
+General instructions on how to contribute [CONTRIBUTING](#getting-involved)
+and [CODE OF CONDUCT](coc)
 
 ## Open source licensing info
 
